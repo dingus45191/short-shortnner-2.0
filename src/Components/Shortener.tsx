@@ -8,7 +8,7 @@ export default function Shortener() {
         <input
           className="input"
           placeholder="Just click on the button to start"
-        ></input>
+     />
         <a
           className="short-it"
           role="button"
