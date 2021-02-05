@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald&family=Turret+Road:wght@500&display=swap");
+
+.reason {
+  font-size: 24px;
+  margin-bottom: 100px;
+  font-family: "Oswald", sans-serif;
+}
+.donate-us {
+  margin-bottom: 100px;
+  font-family: "Indie Flower", cursive;
+}
+.why {
+  font-size: 30px;
+  font-family: "Turret Road", cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.give {
+  /* same as that of button in main.css except for few changes*/
+  margin: 0 auto;
+  border-radius: 8px;
+  font-size: inherit;
+  color: #fff;
+  transition: background 100ms linear;
+  text-decoration: none;
+  line-height: normal;
+  outline: none !important;
+  padding: 0.6em 1em;
+  display: block;
+  padding: 0.85em 1em;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1.11;
+  padding: 18px 30px !important;
+  margin-left: 400px;
+  width: 200px;
+  background-color: #060930;
+  /* same as that of button in main.css except for few changes*/
+}
+.give:hover {
+  text-decoration: none;
+}
+#donation {
+  background-color: #f1f6f9;
+  padding: 150px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #donation {
+    padding: 100px;
+  }
+  .give {
+    margin: 0 auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .give {
+    margin: 0 auto;
+  }
+}
