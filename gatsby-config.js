@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Short Shortnner",
   },
+  siteUrl: 'http://shortnner.tech',
   plugins: [
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
